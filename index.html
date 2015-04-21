@@ -9,13 +9,14 @@
 	<style type="text/css">
 	body{
 		background-color: #ADD8E6;
-		color: white;
+		/*color: white;*/
 	}
 
 	header{
 		text-align: center;
 		font-family:'Courier New', Courier, 'Nimbus Mono L', serif, monospace;
 		text-shadow: 2px 2px #000000;
+		color: white;
 	}
 
 	img{
@@ -27,7 +28,20 @@
 	}
 
 	#imgs{
-		/*margin: 0 auto;*/
+		padding-top: 3em;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	p{
+		color: black;
+		text-align: center;
+		font-size: 18px;		
+		padding-bottom: 2em;
+	}
+	h2{
+		text-align: center;
 	}
 	</style>
 
@@ -37,37 +51,37 @@
 	<header>
 		<h1>Soldier Sudoku</h1>
 	</header>
-
+<h2>Our team wrote a C++ desktop version of the popular puzzle game, Sudoku.</h2>
 	<div id="imgs">
 		<img src="home.png" alt="">
-		<p></p>
+		<p>This is the home screen. From here, the user can create a new game, load a saved game, check out the instructions, statistics, leaderboard, and log into Facebook.</p>
 
 		<img src="easy.png" alt="">
-		<p></p>
+		<p>After selecting 'New Game', the user can choose from 4 difficulties: Easy, Medium, Hard, and Expert. This shows an easy game.</p>
 
 		<img src="playing.png" alt="">
-		<p></p>
+		<p>User added values appear in blue. Notes appear in green and are smaller. Values can be added via the buttons or keyboard input. Navigation can be done via clicking or arrow keys. Moves and notes can be undone and redone via keyboard shortcuts and the arrow buttons. </p>
 
 		<img src="hints.png" alt="">
-		<p></p>
+		<p>Adding a hint adds a black value. It also adds to the time. Each hint adds more time than the last.</p>
 
 		<img src="erase.png" alt="">
-		<p></p>
+		<p>User added values can be erased.</p>
 
 		<img src="pause.png" alt="">
-		<p></p>
+		<p>User is given options for ending, continuing, and resetting the game. Meanwhile, the game timer does not continue.</p>
 
 		<img src="save.png" alt="">
-		<p></p>
+		<p>If the user would like to end the game, there is an option to save first so the game can be continued later.</p>
 
 		<img src="instr.png" alt="">
-		<p></p>
+		<p>The instructions for the game.</p>
 
 		<img src="fblogin.png" alt="">
-		<p></p>
+		<p>Upon clicking the log in with Facebook button, the user is prompted for credentials.</p>
 
 		<img src="loggedin.png" alt="">
-		<p></p>
+		<p>After successful login, the user's name appears in the top right corner of every screen. All statistics will now be logged to that user rather than 'Anonymous'.</p>
 	</div>
 
 </body>
